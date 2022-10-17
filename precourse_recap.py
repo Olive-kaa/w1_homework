@@ -1,8 +1,6 @@
+name = "Wally"
+nr_puppies = 1 + 3
 
-
-def greet(name):
-    print("Where is " + name + "?")
-
-greet("Wally")
-
+def mistery(name, nr_puppies):
+    print("Where is " + name + "and their " + nr_puppies + "puppies?")
 
